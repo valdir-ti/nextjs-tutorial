@@ -10,10 +10,10 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Valdir Silva</p>
+        <p>Hi, I'm Valdir. I'm a software engineer and love discover new things about NextJS every day.</p>
         <p>
           (This is a sample website - you’ll be building a site like this on{' '}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
+          <Link href="https://nextjs.org/learn" target="_blank">our Next.js tutorial</Link>.)
         </p>
         <div>
           <Link href="/posts/first-post">Go to Posts</Link>
